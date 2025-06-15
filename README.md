@@ -11,18 +11,6 @@ Conduct exploratory data analysis (EDA)
 
 Build various regression models (linear, polynomial, ridge)
 
-Libraries used:
-import pandas as pd
-import numpy as np
-import seaborn as sns
-import matplotlib.pyplot as plt
-
-from sklearn.linear_model import LinearRegression, Ridge
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler, PolynomialFeatures
-from sklearn.pipeline import Pipeline
-from sklearn.metrics import r2_score
-
 
 📊 Exploratory Data Analysis (EDA)
 Converted categorical variables like smoker, region, and gender using get_dummies().
